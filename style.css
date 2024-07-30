@@ -1,0 +1,162 @@
+/* estilos globais*/
+body{
+    font-family: "Bellota", system-ui;
+    font-weight: 700;
+    font-style: normal;;
+    background-color: #8C52FF;
+    color: #A7E8CE;
+    margin: 0;
+    padding: 0;
+}
+/*barra de navegação*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color:#A7E8CE;
+    padding: 10px 0;
+}
+/*link da navegação*/
+.nav-link{
+    color:#ffff;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color:#f5afc6;
+}
+
+/*estilos dos links*/
+a{
+    color: rgb(228, 26, 150);
+    text-decoration: none;
+}
+a:hover{
+    color: #f5afc6;
+    text-decoration: underline;
+}
+
+/*estilo das imagens*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* cabeçalho*/
+
+.header{
+    background-color:#fefefe;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*logo da loja*/
+.logo{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*nome da loja*/
+.store-name{
+    color:#8C52FF;
+    font-size: 24px;
+    font-weight: bold;
+}
+/*lista de produtos*/
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+/*estilo dos itens*/
+.product-item{
+    background-color:#ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    width: calc(33.333%-20px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+.product-item:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1)
+}
+
+.product-image-container{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-image{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-name,
+.product-price{
+    margin: 10px;
+}
+
+.product-name{
+    font-family: 'Bellota';
+    font-size: 20px;
+    font-weight: 700;
+    color: #8C52FF;
+    font: bold;
+}
+
+.product-price{
+    font-size: 16px;
+    color: #A7E8CE
+}
+
+.product-price{
+    display: block;
+    text-align: center;
+    background-color:#A7E8CE;
+    color: #8C52FF;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-price:hover{
+    background-color:#f5afc6;
+    color:white;
+    cursor: pointer;
+}
+
+/*rodapé*/
+.footer{
+    background-color:white;
+    color:#8C52FF;
+    padding: 40px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-content{
+    margin: 10px 0;
+    color:#8C52FF;
+}
+/*redes sociais*/
+.social-link{
+    color: #ff526f;
+    margin: 0 5px;
+}
+
+.social-link:hover{
+    color:#A7E8CE;
+}
