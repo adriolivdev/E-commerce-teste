@@ -1,2 +1,2 @@
 # Primeiro projeto de e-commerce
-##usando: HTML E CSS
+Estou usando: HTML E CSS
