@@ -1,2 +1,2 @@
-# Front-end-initial
-Primeiros projetos em front
+# Primeiro projeto de e-commerce
+##usando: HTML E CSS
